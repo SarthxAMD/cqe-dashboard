@@ -1,0 +1,105 @@
+{
+    "compiler": [
+        "lightning/ec/llvm-project",
+        "compute/ec/aomp",
+        "compute/ec/aomp-extras",
+        "compute/ec/flang",
+        "compute/ec/hipify"
+    ],
+    "debugger": [
+        "compute/ec/rocm-gdb",
+        "compute/ec/rocm-dbgapi",
+        "DevTools/ec/rocr_debug_agent"
+    ],
+    "hip": [
+        "compute/ec/hip",
+        "compute/ec/hip-examples",
+        "compute/ec/hip-examples-private",
+        "compute/ec/hip-tests",
+        "compute/ec/clr",
+        "compute/ec/hipother",
+        "compute/ec/OpenCL-CLHPP",
+        "compute/ec/OpenCL-CTS",
+        "compute/ec/OpenCL-Headers",
+        "compute/ec/OpenCL-ICD-Loader"
+    ],
+    "mathlibs": [
+        "rocBLAS",
+        "rocFFT",
+        "rocSPARSE",
+        "rocALUTION",
+        "rocSOLVER",
+        "rocPRIM",
+        "rocRAND",
+        "rocThrust",
+        "hipBLASLt",
+        "hipBLAS",
+        "hipBLAS-common",
+        "hipFFT",
+        "hipCUB",
+        "hipSOLVER",
+        "hipSPARSE",
+        "hipSPARSELt",
+        "hipRAND",
+        "hipFORT",
+        "hipTensor",
+        "Tensile",
+        "rocDecode",
+        "rocPyDecode",
+        "rccl",
+        "rocWMMA",
+        "rocm-cmake",
+        "TransferBench"
+    ],
+    "migraphx": [
+        "AMDMIGraphX"
+    ],
+    "miopen": [
+        "MIOpen",
+        "composable_kernel"
+    ],
+    "mivision": [
+        "MIVisionX",
+        "rocAL",
+        "rpp"
+    ],
+    "profiler": [
+        "compute/ec/rocprofiler",
+        "compute/ec/roctracer",
+        "hsa/ec/aqlprofile",
+        "rocprofiler-register-internal",
+        "rocprofiler-sdk-internal",
+        "omniperf",
+        "omnitrace",
+        "rocprofiler-systems"
+    ],
+    "rocr": [
+        "hsa/ec/hsa-runtime",
+        "compute/ec/libhsakmt",
+        "hsa/ec/rocr-runtime"
+    ],
+    "smi": [
+        "SYS-MGMT/ec/amd-smi",
+        "compute/ec/rocm_smi_lib"
+    ],
+    "tools": [
+        "ROCmValidationSuite",
+        "compute/ec/rdc",
+        "compute/ec/rocm_bandwidth_test",
+        "compute/ec/rocminfo",
+        "rocm-examples"
+    ],
+    "packaging": [
+        "compute/ec/packaging/meta",
+        "compute/ec/packaging/docker",
+        "compute/ec/rocm-core"
+    ],
+    "infra": [
+        "compute/ec/build-infra",
+        "compute/ec/infrastructure",
+        "compute/ec/jenkins-utils",
+        "compute/ec/ml-framework-ci",
+        "compute/ec/prototype",
+        "MLSEQA_TestRepo"
+    ]
+}

@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    admin:
+      email: admin
+      name: admin
+      password: $2b$12$6.l71vfRAbNYVeqCWd28Wed4PYejFinHmcPbc8Ke7J9S.95Z4TJ.i
+cookie:
+  expiry_days: 1
+  key: 'random_signature_key' # Must be string
+  name: auth_cookie
