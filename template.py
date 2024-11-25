@@ -45,7 +45,7 @@ class StyleTemplate:
         self.nav_options = {
             "show_menu": True,
             # "use_padding": True,
-            "fix_shadow":True,
+            # "fix_shadow":True,
             "show_sidebar": False,
         }
         self.nav_logo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "rocm_cqe_logo.svg")
