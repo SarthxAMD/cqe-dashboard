@@ -458,6 +458,12 @@ class Dashboard:
                 st.markdown(f"**{comp}:**")
                 self.print_build_scheduler_info(comp, True)
 
+        if self.page == 'Build':
+            st.subheader('Build')
+
+        if self.page == 'Test':
+            st.subheader('Test')
+
     def print_build_scheduler_info(self, comp_name, skip_print=False):
         if comp_name != 'Release-Staging' and 'Win' not in comp_name:
             if not skip_print:
