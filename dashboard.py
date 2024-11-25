@@ -91,7 +91,7 @@ class Dashboard:
         with open(config_file) as f:
             self.login_config = yaml.load(f,Loader=SafeLoader)
         #page_header = ['Component Staging', 'Full Summary', 'In-Progress Staging', 'Promoted Builds', 'Admin Page']
-        page_header = ['Component Staging', 'Full Summary', 'Promoted Builds', 'Admin Page', 'Staging Schedule']
+        page_header = ['Component Staging', 'Full Summary', 'Promoted Builds', 'Admin Page', 'Staging Schedule', 'Build', 'Test']
         self.page = st_navbar(page_header,
                             logo_path=template.nav_logo_path,
                             selected='Component Staging',
