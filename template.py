@@ -44,7 +44,7 @@ class StyleTemplate:
         }
         self.nav_options = {
             "show_menu": True,
-            # "use_padding": True,
+            "use_padding": True,
             "fix_shadow":True,
             "show_sidebar": False,
         }

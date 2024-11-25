@@ -181,7 +181,7 @@ class Dashboard:
                     st.warning(e)
                     st.warning('Something went wrong! Try Again.', icon="⚠️")
             else:
-                st.info('Database is Empty.', icon="ℹ️")
+                st.info('Component staging = Database is Empty.', icon="ℹ️")
         # Full Summary
         if self.page == 'Full Summary':
         #with tab2:
